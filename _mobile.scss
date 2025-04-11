@@ -1,0 +1,352 @@
+@media (max-width: 756px) {
+
+  .center {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+.scroll-container{
+ font-size: 22px;
+ top: 655px;
+ line-height: 46px;
+ height: 44px;
+}
+
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    block-size: 700px;
+
+  }
+
+  .header__button {
+    margin-top: 35px;
+    width: 285px;
+    height: 55px;
+    font-size: 16px;
+    font-weight: 600;
+
+  }
+
+  .cart-game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .mini-game {
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 40px;
+    line-height: 49px;
+    letter-spacing: 0px;
+    text-align: left;
+    padding-top: 50px;
+  }
+
+
+
+
+  .header__title {
+    color: rgb(32, 32, 39);
+    font-family: Montserrat;
+    font-size: 40px;
+    line-height: 49px;
+    text-align: center;
+  }
+
+
+
+  .subtitle {
+    color: rgb(32, 32, 39);
+    max-width: 335px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+
+    & br {
+      display: none;
+    }
+  }
+
+  .header {
+    background-image: url(img/Vector1.svg);
+    background-color: rgb(225, 255, 143);
+    background-repeat: no-repeat;
+    background-position: calc(90% + 120px) calc(2% - 110px);
+  }
+
+  .game1 {
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    right: 260px;
+  }
+
+  .game2 {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    right: 620px;
+    margin-left: 00px;
+    margin-right: -300px;
+  }
+
+  .game3 {
+    position: absolute;
+    width: 39px;
+    height: 41px;
+    margin-left: 310px;
+    margin-top: 175px;
+  }
+
+  .game4 {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    margin-left: 280px;
+    margin-top: 150px;
+  }
+
+  .games-section {
+    display: none;
+  }
+
+  .games-section1 {
+    height: 3820px;
+  }
+
+  .cart-box__big {
+    background-color: #fff;
+    width: 342px;
+    margin-top: 36px;
+    border-radius: 28px;
+    height: 510px;
+  }
+
+  .cart-box__bigger {
+    background-color: #fff;
+    width: 342px;
+    margin-top: 36px;
+    border-radius: 28px;
+    height: 575px;
+  }
+
+  .cart-box__longer {
+    background-color: #fff;
+    width: 342px;
+    margin-top: 36px;
+    border-radius: 28px;
+    height: 605px;
+  }
+
+  .game-img1 {
+    margin-left: -1px;
+    width: 343px;
+    height: 283px;
+  }
+
+  .game-img2 {
+    margin-left: -1px;
+    width: 343px;
+    height: 283px;
+  }
+
+  .title-game {
+    color: #202027;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-bottom: 10px;
+    width: 284px;
+  }
+
+  .title-game__long {
+    color: #202027;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
+    letter-spacing: 0px;
+    text-align: left;
+    width: 284.93px;
+    margin-bottom: 10px;
+  }
+
+  .describe {
+    color: rgb(0, 0, 0);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    width: 275px;
+  }
+
+  .describe-right {
+    color: rgb(0, 0, 0);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    width: 275px;
+  }
+
+
+
+  .mini-games {
+    padding-top: 46px;
+    overflow: hidden;
+
+    &__box {
+      display: flex;
+      gap: 29px;
+      margin-top: 50px;
+      flex-direction: column;
+      padding-bottom: 52px;
+
+
+      &>.mini-games__card:nth-child(2n) {
+        display: flex;
+        flex-direction: column-reverse;
+      }
+    }
+
+    &__title {
+
+      color: rgb(255, 255, 255);
+      font-family: Montserrat;
+      font-size: 40px;
+      font-weight: 700;
+      line-height: 49px;
+      letter-spacing: 0px;
+      text-align: left;
+    }
+
+
+
+
+    &__card {
+      display: flex;
+      flex-direction: column-reverse;
+      height: 100%;
+      background-color: #fff;
+      border-radius: 30px;
+      box-shadow: 0 13px 42px -8px rgba(0, 0, 0, 0.13);
+      overflow: hidden;
+    }
+
+    &__content {
+      padding: 29px;
+      background-color: #fff;
+    }
+
+    &__name {
+      color: rgb(32, 32, 39);
+      font-family: Montserrat;
+      font-size: 32px;
+      font-weight: 700;
+      line-height: 39px;
+    }
+
+    &__description {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 20px;
+      margin-top: 14px;
+
+      &--br-mobile {
+        display: block;
+      }
+    }
+
+    &__button {
+      border-radius: 60px;
+      margin-top: 32px;
+      background: rgb(32, 32, 39);
+      width: 100%;
+      height: 55px;
+      color: rgb(255, 255, 255);
+      font-family: Montserrat;
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 142%;
+      cursor: pointer;
+      transition: all 0.5s;
+
+      &:hover {
+        background-color: transparent;
+        color: #000000;
+      }
+    }
+  }
+
+
+  .footer {
+    background-color: rgb(153, 204, 14);
+    height: 100px;
+  }
+
+  .footer__text {
+
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    padding-top: 40px;
+
+  }
+
+  .star-end1 {
+    display: none;
+  }
+
+  .star-end2 {
+    display: none;
+  }
+
+  .star-end3 {
+    display: none;
+  }
+
+  .star-end4 {
+    display: none;
+  }
+
+  .star-img1 {
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    left: 93px;
+    top: 63px;
+  }
+
+  .star-img2 {
+    position: absolute;
+    top: 97px;
+    left: 36px;
+    width: 40px;
+  }
+
+  .star-img3 {
+    position: absolute;
+    right: 82px;
+    bottom: 108px;
+    width: 21px;
+  }
+
+  .star-img4 {
+    position: absolute;
+    right: 28px;
+    bottom: 55px;
+    width: 46px;
+  }
+
+}
